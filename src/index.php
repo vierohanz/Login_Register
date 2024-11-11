@@ -47,7 +47,7 @@ if (isset($_POST['login'])) {
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
@@ -56,7 +56,7 @@ if (isset($_POST['login'])) {
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-10">
                     <div class="wrap d-md-flex">
-                        <div class="img" style="background-image: url(assets/images/Rais\ Hannan\ RIzanto.jpg)"></div>
+                        <div class="img" style="background-image: url(../assets/images/Rais\ Hannan\ RIzanto.jpg)"></div>
                         <div class="login-wrap p-4 p-md-5">
                             <div class="d-flex">
                                 <div class="w-100">
@@ -71,8 +71,8 @@ if (isset($_POST['login'])) {
                             </div>
                             <form class="signin-form" action="" method="POST">
                                 <div class="form-group mb-3">
-                                    <label class="label" for="username">Username</label>
-                                    <input type="text" class="form-control" name="username" placeholder="Username" required />
+                                    <label class="label" for="email">Email</label>
+                                    <input type="text" class="form-control" name="username" placeholder="Email" required />
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">Password</label>
