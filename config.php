@@ -1,8 +1,8 @@
 <?php
 
-$db_host = "mysql";
+$db_host = "localhost";
 $db_user = "root";
-$db_pass = "root";
+$db_pass = "";
 $db_name = "register";
 
 try {
